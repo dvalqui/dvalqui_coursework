@@ -1,11 +1,12 @@
+import React from "react";
+import HarryPotterContainer from "./containers/HarryPotterContainer";
+
 import './App.css';
-import UpcomingFilms from './container/UpcomingFilms';
 
 function App() {
   return (
-    <UpcomingFilms />
-   
-  )
+      <HarryPotterContainer/>
+  );
 }
 
 export default App;

@@ -1,0 +1,19 @@
+.Button {
+    border: 2px solid yellow;
+    background: black;
+    color: yellow;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.Button:hover {
+    border: 2px solid black;
+    background: yellow;
+    color: black;
+}
+
+.Button:disabled {
+    border: 2px solid yellow;
+    background: lightgrey;
+    color: darkgrey;
+}
