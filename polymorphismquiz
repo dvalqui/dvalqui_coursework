@@ -1,0 +1,35 @@
+Polymorphism and Compositon Quiz
+
+1. Polymorphism comes from the greek words polus, meaning many, and morph meaning shapes. 
+It is the condition of occurring in several different forms.
+
+2. When we apply polymorphism to OOP design it means we are taking a situation that occurs in several different forms, 
+but may not be the same type. In Java inheritance, all objects must be the same type to perform methods, 
+and polymorphism lets us do this. For example, a vehicle can be several different things that use different methods to move. 
+Car, bike, motorbike, scooter, etc.
+
+3. We use inheritance and interfaces to implement polymorphism in Java.
+
+4. An object can take in two forms when using polymorphism.
+
+5. For example, a stove has several different parts and methods. 
+It has different burners, switches to turn on the burners, you need a pot to cook something, and food to cook. 
+To create a method MakeSoup, you would need to take in all of these objects into the stove as an ArrayList. 
+And you could use an interface, ICook, to make your soup. Each of these classes have their own properties and methods. 
+Using an interface allows the classes to have both their own method and the method to make soup in ICook.
+
+
+6. Composition is when one object is a part of another object.
+
+7. You would use composition to show an object as a part of something as well as when an object has ownership of an object. 
+
+8. Composition has a strong association, meaning the object property is destroyed with its owner object. 
+Aggregation has a weak association meaning the object property can exist on its own.
+
+
+9. The advantages of using composition/aggregation are they allow a class to use behavior from a group of other classes. 
+And aggregation, objects can exist independently from the object it composes. 
+
+10. In composition, when an object is destroyed, so is the owner object it is a part of.
+
+11. In aggregation, when an object is destroyed, the object it composes is not destroyed. 
